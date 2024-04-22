@@ -4,14 +4,17 @@ export default function Content() {
   return (
     <div className="main-content">
       <div className="text-content">
-        <h1>
-          Maximum profit<span>from advertising</span>
-          on marketplaces
-        </h1>
-        <p>
-          We help raise products to the top using
-          <span>smart management and analytics</span>
-        </p>
+        <div>
+          <h1>
+            Maximum profit<span>from advertising</span>
+            on marketplaces
+          </h1>
+          <p>
+            We help raise products to the top using
+            <span>smart management and analytics</span>
+          </p>
+        </div>
+
         <div className="content-btn">
           <button className="learn-more">Learn more</button>
           <button className="start">
@@ -24,7 +27,7 @@ export default function Content() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="w-3 h-3"
               >
                 <path
                   strokeLinecap="round"
@@ -36,17 +39,19 @@ export default function Content() {
           </button>
         </div>
       </div>
+
       <div className="info-content">
         <div className="about">
           <div className="user">
-            <p>
-              100K+ <span>Users</span>
+            <p>100K+</p>
+            <div>
+              <span>Users</span>
               <span>Joined</span>
-            </p>
+            </div>
           </div>
-          <div className="about-btn">
-            <button>
-              About Company{" "}
+          <div>
+            <button className="about-btn">
+              About company{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -72,7 +77,9 @@ export default function Content() {
             </p>
           </div>
           <div className="profit">
-            <h1>120K</h1>
+            <h1>
+              120<span>K</span>
+            </h1>
             <p>
               <span>average profit</span> <span>per month</span>
             </p>
